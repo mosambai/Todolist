@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <div class="input-section">
+            <input type="text" id="task-input" placeholder="Enter new task">
+            <input type="date" id="date-input">
+            <input type="time" id="time-input">
+            <input type="text" id="note-input" placeholder="Enter task notes">
+            <button id="add-task-btn">Add Task</button>
+        </div>
+        <div class="action-section">
+            <button id="reset-btn">Reset List</button>
+            <input type="text" id="search-input" placeholder="Search tasks">
+            <button id="toggle-dark-mode">Toggle Dark Mode</button>
+        </div>
+        <ul id="task-list"></ul>
+        <h2>Archived Tasks</h2>
+        <ul id="archive-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
